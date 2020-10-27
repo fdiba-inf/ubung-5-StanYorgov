@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Search 5",
+      "setup": "cd src && javac exercise5/Search.java",
+      "run": "cd src && java exercise5.Search",
+      "input": "5 1 -2 3 -4 5 -4",
+      "output": "Number index: 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "Search 10",
+      "setup": "cd src && javac exercise5/Search.java",
+      "run": "cd src && java exercise5.Search",
+      "input": "10 0 -1 2 -3 4 -5 6 -7 8 -9 15",
+      "output": "Number index: -1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "UniqueNumbers 5",
+      "setup": "cd src && javac exercise5/UniqueNumbers.java",
+      "run": "cd src && java exercise5.UniqueNumbers",
+      "input": "5 -1 -1 2 4 4",
+      "output": "Unique numbers: [-1, 2, 4, 0, 0]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "UniqueNumbers 10",
+      "setup": "cd src && javac exercise5/UniqueNumbers.java",
+      "run": "cd src && java exercise5.UniqueNumbers",
+      "input": "10 -1 2 2 -1 1 -2 -1 2 9 9",
+      "output": "Unique numbers: [-1, 2, 1, -2, 9, 0, 0, 0, 0, 0]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "AscendingSort 5",
+      "setup": "cd src && javac exercise5/AscendingSort.java",
+      "run": "cd src && java exercise5.AscendingSort",
+      "input": "5 1 9 -2 -2 3",
+      "output": "Sorted numbers: [-2, -2, 1, 3, 9]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "AscendingSort 10",
+      "setup": "cd src && javac exercise5/AscendingSort.java",
+      "run": "cd src && java exercise5.AscendingSort",
+      "input": "10 1 0 1 9 3 2 3 7 10 -2",
+      "output": "Sorted numbers: [-2, 0, 1, 1, 2, 3, 3, 7, 9, 10]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "DescendingSort 5",
+      "setup": "cd src && javac exercise5/DescendingSort.java",
+      "run": "cd src && java exercise5.DescendingSort",
+      "input": "5 1 9 -2 -2 3",
+      "output": "Sorted numbers: [9, 3, 1, -2, -2]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "DescendingSort 10",
+      "setup": "cd src && javac exercise5/DescendingSort.java",
+      "run": "cd src && java exercise5.DescendingSort",
+      "input": "10 1 0 1 9 3 2 3 7 10 -2",
+      "output": "Sorted numbers: [10, 9, 7, 3, 3, 2, 1, 1, 0, -2]",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
