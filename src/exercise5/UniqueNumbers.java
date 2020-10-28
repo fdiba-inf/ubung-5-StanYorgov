@@ -21,8 +21,10 @@ public class UniqueNumbers {
         int uniqueNumbersTemp;
 
         for (int index = 0; index < numbers.length - 1; index++) {
-            if (numbers[index] == numbers[index + 1]) {
-                numbers[index + 1] = 0;
+            for (int k = index + 1; k < numbers.length; k++) {
+                if (numbers[index] == numbers[k]) {
+                    numbers[k] = 0;
+                }
             }
         }
 
