@@ -24,6 +24,7 @@ public class Search {
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] == number) {
                 numberIndex = i;
+                break;
             }
         }
 
